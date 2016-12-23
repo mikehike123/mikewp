@@ -1,0 +1,273 @@
+body {
+  position: relative; }
+
+.webDev {
+  color: #cecece;
+  font-style: italic;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  margin: 10px 0px 0px 0px; }
+
+.h1, h1 {
+  font-size: 3.5rem; }
+
+header hgroup ol, header hgroup ul {
+  list-style: none;
+  padding: 0; }
+
+@media only screen and (min-width: 768px) {
+  .topHeaderPic {
+    background: url(http://mikeclark.mossycity.com/img/wordPressBike.png) no-repeat top center fixed;
+    height: 230px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-size: 350px auto;
+    background-position-x: 80%; } }
+/*
+ *  Styles For top menu and logo
+*********************************************************************
+*/
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+#navbar-brand a {
+  padding: 5px; }
+
+#navbar-brand img {
+  width: 200px; }
+
+#myNavbar a:hover {
+  background-color: gray; }
+
+@media only screen and (min-width: 768px) {
+  #navbar-brand img {
+    width: 300px;
+    margin-top: -10px; } }
+#myNavbar .navbar-right li a {
+  color: white;
+  font-weight: 600; }
+
+#myNavbar .navbar-right li.active a {
+  color: white;
+  background-color: #0f434c; }
+
+.navbar-default {
+  background-color: #33a4c9;
+  border: none;
+  /*border-color: #e7e7e7; */ }
+
+#topHeader.affix {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0px; }
+
+.stuck {
+  position: fixed;
+  top: 0;
+  z-index: 100; }
+
+.collapse {
+  background-color: #33a4c9;
+  z-index: 100;
+  position: relative; }
+
+.collaspse a {
+  background-color: #33a4c9; }
+
+/*  End of menu ***************/
+.sectionTitle {
+  padding: 0 0 0px 70px;
+  margin: 50px 0;
+  position: relative; }
+
+.sectionTitle:before {
+  background-color: #33a4c9;
+  border-radius: 25px;
+  content: ' ';
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0px;
+  width: 50px; }
+
+.sectionTitle-font, .sectionTitle {
+  font-size: 2rem; }
+
+section {
+  font-size: 1.8rem; }
+
+.bg-lightgray, .skillData-Wrapper {
+  background-color: #ddd; }
+
+.skillData-Wrapper {
+  width: 100%; }
+
+#skillgraphWrapper-break {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+
+#skillgraphWrapper-break:after {
+  margin-left: 85px;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: -moz-calc(100% - 85px + 15px);
+  width: -webkit-calc(100% - 85px + 15px);
+  width: calc(100% - 85px + 15px);
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #000 2px, transparent 2px);
+  background-size: 10%;
+  background-color: rgba(255, 0, 0, 0.2); }
+
+#skillgraph {
+  padding: 1em; }
+
+.skill-row-break {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid; }
+
+.skill-row {
+  margin: 0 0 20px 0; }
+
+.skillLabel {
+  float: left;
+  width: 100%;
+  color: black; }
+
+.skillData, .skillData-Wrapper {
+  line-height: 0.1 0.7em;
+  height: 0.1 0.7em;
+  width: .1em;
+  float: left;
+  color: white;
+  text-align: center; }
+
+.skillData-Wrapper {
+  width: 100%; }
+
+.bg-blue {
+  background-color: #0f434c; }
+
+.bg-red {
+  background-color: red; }
+
+.bg-rust {
+  background-color: #33a4c9; }
+
+ul {
+  list-style: none; }
+
+ul.job {
+  padding: 0px;
+  margin: 0px;
+  list-style: none; }
+
+.techEnviro {
+  margin-right: .5rem;
+  display: inline; }
+
+ul.job > li {
+  margin-bottom: 2rem; }
+
+ul.job ul li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em; }
+
+/*  Portfolio Grid */
+.portfolio .panel {
+  width: 350px; }
+
+@media (max-width: 350px) {
+  .portfolio .panel {
+    width: 270px; } }
+.panel, .card {
+  box-shadow: 0px 0px 4px #777777; }
+
+.panel-image img.panel-image-preview {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px; }
+
+/* Experience section */
+ul.jobSummary li:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em; }
+
+.panel, .card {
+  box-shadow: 0px 0px 4px #777777; }
+
+.panel-image img.panel-image-preview {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px; }
+
+.details-card {
+  margin-bottom: 100px;
+  background: #ddd;
+  padding: 3em;
+  line-height: 1.5em; }
+
+.details-product-title {
+  margin-top: 0; }
+
+.details-product-title, .details-rating, .details-product-description, .details-price, .details-vote, .details-sizes {
+  margin-bottom: 15px; }
+
+.details-product-title, .details-price, .details-sizes, .details-colors {
+  text-transform: UPPERCASE;
+  font-weight: bold; }
+
+.whiteButton {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px; }
+
+@media (max-width: 990px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-collapse.in {
+    display: block !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+/* crater lake pic */
+#craterlakePic {
+  background-image: url("http://mikeclark.mossycity.com/img/me-ver1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
