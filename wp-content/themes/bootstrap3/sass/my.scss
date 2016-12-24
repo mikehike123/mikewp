@@ -215,16 +215,9 @@ ul.job ul li:before {
 /*  Portfolio Grid */
 .portfolio .panel 
 {
-    width:350px;
+    width:270px;
 }
-@media (max-width: 350px)
-{
-    .portfolio .panel 
-    {
-        width:270px;
-    }
 
-}
 .panel, .card {
   box-shadow: 0px 0px 4px #777777; }
   
